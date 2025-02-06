@@ -1,0 +1,492 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><style>:root{--AppColor:#1262ff;--oColor:rgba(18,98,255,0.37);--wbColor:#fff;--d_Color:#0C41AA;--siteUrl:"https://bitvino.com"}</style><meta name="theme-color" content="#1262ff"/><meta name="msapplication-navbutton-color" content="#1262ff"/><meta name="mobile-web-app-capable" content="yes"/><meta name="application-name" content="Bitvino" /><meta name="apple-mobile-web-app-title" content="Bitvino" /><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="robots" content="noimageindex,noarchive"><meta name="keywords" content="wallet,crypto,Trade,Trading"><meta name="description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:url" content="https://bitvino.com"><meta property="og:image" content="https://bitvino.com/images/OpenGraphics.png"><meta property="og:title" content="Bitvino"><meta property="og:type" content="crypto:wallet"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><title>
+	Bitvino| Rubber56
+</title> 
+
+<link rel="stylesheet" href="/users/assets/css/style.css?xo" />
+<link rel="stylesheet" href="/users/assets/bootstrap-icons/bootstrap-icons.css" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/css/___App_Global.css" />
+
+<!----PLUG-INs CSS---->
+<link href="/js/offline/offline-theme-default.css" rel="stylesheet" />
+<link href="/js/offline/offline-language-english.css" rel="stylesheet" /> 
+<link href="/js/alertify/alertify.css" rel="stylesheet" />
+<link href="/js/alertify/default.css" rel="stylesheet" />
+
+
+<script src="/js/Jquery-ui/jquery-3.6.0.min.js"></script>
+<script>var srcGet = '/', _clr = '#1262ff';</script>
+
+<style>
+.appHeader {
+background: inherit !important;
+border: none !important;
+}
+
+#appCapsule{
+margin-top: 18px;
+margin-bottom: 18px;
+}    
+#google_translate_element * {
+color: transparent;
+}
+#google_translate_element img {
+display:none
+}
+#google_translate_element select,#google_translate_element option{
+color: #fff;
+}
+#google_translate_element select{
+padding: 2px 10px;
+text-align: center;
+text-align-last: center;
+background: var(--AppColor);
+border: none !important;
+outline: none !important;
+}.image-listview>li a.item::after{content:''!important}
+ option {
+  color: #000;
+}
+</style>
+
+<style>
+.dkd span {
+position: relative;
+}
+[id*=Lbl_User]:not(:empty)::before {
+content: 'Username: ';
+}
+</style>
+
+
+<style>
+.impo.shw:after{content:' *';color:red}
+.mxf .input-group-text {
+padding: .375rem .75rem;
+}
+.input-group.mxf i {
+  background: var(--AppColor);
+  border-radius: 100%;
+  padding: .15rem .37rem;
+  display: block;
+  color:#fff
+}
+.input-group.mxf .input-group-text {
+  padding-left: 4px;
+}
+.mxf .input-group-text:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  box-shadow: none;
+}.mxf select, .mxf input {
+  padding-left: 2.5rem !important;
+  margin-left: 0;
+}
+[id*=Trans_Pin] {
+font-family: 'password'; 
+-webkit-text-security: square; 
+text-security: square; 
+font-size: 16px;
+padding: 10px;
+}
+.dkd {
+    position:relative;
+    margin-top: -0.7rem;
+    font-size: 11.4pt;
+    font-weight: 600;
+    text-align: right;
+    color: var(--AppColor)
+}
+.appBottomMenu {
+  border-radius: 2rem 2rem 0 0;
+}
+</style>
+</head>
+<body class="dark-mode">
+
+<div class="appHeader  text-light ico1" style="display:none">
+<div class="left">
+<a href="Profile" class="headerButton"> 
+<i class="bi bi-person-fill" aria-label="settings"></i>
+</a>
+</div>
+<div class="pageTitle" style="color:var(--AppColor)">
+Home
+</div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+
+</div>
+</div>
+
+<div class="appHeader ico2">
+<div class="left">
+<a href="javascript:void(0);" onclick="var r=document.referrer;if(r&&!r.toLowerCase().includes('login')){window.history.back()}else{window.location='dashboard'}" class="headerButton">
+<i class="bi bi-chevron-left" aria-label="chevron back outline"></i> Previous
+</a>
+</div>
+<div class="pageTitle"></div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+</div>
+</div>
+
+
+
+<div id="appCapsule" class="container">    
+<form method="post" action="./transfer?query=HUEfBOpz3ddo8q1Avu1pQw%3d%3d" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" autocomplete="off" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODYzNzc5OTQ4DxYCHghDb2lkRGF0YTL6CwABAAAA/////wEAAAAAAAAABAEAAADiAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkRpY3Rpb25hcnlgMltbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XSxbU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0EAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUNS2V5VmFsdWVQYWlycwADAAMIkgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQjmAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLktleVZhbHVlUGFpcmAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXVtdAwAAAAkCAAAAAwAAAAkDAAAABAIAAACSAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkdlbmVyaWNFcXVhbGl0eUNvbXBhcmVyYDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAAAAAAcDAAAAAAEAAAADAAAAA+QBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuS2V5VmFsdWVQYWlyYDJbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dBPz////kAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLktleVZhbHVlUGFpcmAyW1tTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldLFtTeXN0ZW0uU3RyaW5nLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQIAAAADa2V5BXZhbHVlAQEGBQAAAAxVU0RUIChUUkMyMCkGBgAAACFVU0RUIChUUkMyMCk8Iz5UUlg8Iz43MDAwPCM+NTAwMDAB+f////z///8GCAAAAAdCaXRjb2luBgkAAAAbQml0Y29pbjwjPkJpdGNvaW48Iz40MDA8Iz4wAfb////8////BgsAAAAMVVNEVCAoRVJDMjApBgwAAAAhVVNEVCAoRVJDMjApPCM+RVRIPCM+Mi4wMTwjPjUwMDAwCxYCZg9kFgICAw9kFgICAQ9kFgJmD2QWAmYPZBYCAgMPZBYCAgEPZBYEAgMPZBYCZg9kFgYCAQ8PFgIeCEltYWdlVXJsBRt+L2ltYWdlcy9hQ09JTlMvYml0Y29pbi5wbmdkZAIDDxAPFgYeDURhdGFUZXh0RmllbGQFBG5hbWUeDkRhdGFWYWx1ZUZpZWxkBQdjb2luX2lkHgtfIURhdGFCb3VuZGdkEBUIAANCTkIDQlRDA0VUSANMVEMDVFJYDFVTRFQgKEVSQzIwKQxVU0RUIChUUkMyMCkVCAAPYmluYW5jZWNvaW49Qk5CC2JpdGNvaW49QlRDDGV0aGVyZXVtPUVUSAxsaXRlY29pbj1MVEMIdHJvbj1UUlgTdGV0aGVyPVVTRFQgKEVSQzIwKRN0ZXRoZXI9VVNEVCAoVFJDMjApFCsDCGdnZ2dnZ2dnFgECAmQCBQ8PFgIeBFRleHQFAiQwFgIeCmRhdGEtcHJpY2UFBTk2OTM3ZAIFD2QWAmYPZBYCAgEPZBYCAgEPEGRkFgFmZGSGnP8OZJoT4MDM9Uj+DzrIfedgBg==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=e3ETZeu6FiW6uHEXePJW4mipZwhdrrDpE4Gy3gixMGDnDUYK7YUj5bweUUurshb4KafI-MuohgLQ6eNlR1QWYjq3MGk1&amp;t=638627956040000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=KW18xX5gdHDefMpcihIsNG2lUGnCdjrq3bjJRg1P_urnK0CJsExF6Io0nVc15zyXZ4MewPlMmZjFxFsZAAPY26Mzsrr7H6CjqoWXtozPBpOEjs5AXFDDrkUbU7g44C4VEp1KF9DoIia531kE25S3Uf8AbP81&amp;t=6df849d2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=-e7h39P7w8__U3SpIpc2dFJ9RdQMIgklsmTCw9YZbw4Nrk7miYd-SKOZB5khDyyLy_ddXgwAPQlnQAhLI3GBGaQ_uiIvqVfdeGzmIAjQ-H45ZKwZV5tv12Z5f4WZJlcuKnuytHxiHfMnscWtSiTsKZNO_wjfMv1BibY-1--l4its-8FB0&amp;t=b990ecd" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=3BpRrxDWIO7nie0PTtRagWZekVtKY9G0hC3wIvhWYRcxW-sAwAVKmqUGRW_SXUpQRJqz6lCbsEqdxOb7z0-cubaf16zduQ_Z2_ISwQDeUoFVawOkNjxYB-tj47j46ISKWUmL3aYse-0RmmLQnbolAQPJSqhgnjCPJVTQSfePQPW9uclp0&amp;t=b990ecd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3BBBD775" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABHMAuW34pD4XLLLMxseInYXTx/OclQpE7GfZRWk+Nmhhou0EsnmKS2FeP2c1GqYDbsFCidu9+fHgkq6kGJl+MA0HvdszJ4zfC6vUdc9r5CQOujtyJc5rDaxg5hSYUSb6wyIfqL0mgZOJjIyAqvGFMR0LPvdx4jPetlWvq9/pdrNi4eTVRGQh9pdHzKoNrGthpCmWqRwyhtgEuF3jQuNogHOaE3hlO24asgXRtbDDAz6iwUuO1z/UiLit6eQ1OMliCsbwrdKeeRM09FgekG6U+tAYNhjc8rxS+N+K5xsvy6VX5NJimz/BgFKhBnrVsLjEGKrVzj5VZrFCJ5g3RSA9OOyWB5PVUbbPdWCnFGuAPHT68i9DkA9LjzwbwHhaD9iFdYn8TOn" />
+</div>    
+
+
+<div id="ContentPlaceHolder1_UpdatePanel1">
+	
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', 'form1', ['tctl00$ContentPlaceHolder1$UpdatePanel1','ContentPlaceHolder1_UpdatePanel1','tctl00$ContentPlaceHolder1$UpdatePanel3','ContentPlaceHolder1_UpdatePanel3','tctl00$ContentPlaceHolder1$UpdatePanel2','ContentPlaceHolder1_UpdatePanel2'], ['ctl00$ContentPlaceHolder1$Dp_Cryp','ContentPlaceHolder1_Dp_Cryp'], [], 90, 'ctl00');
+	//]]>
+</script>
+
+ 
+
+
+<div id="ContentPlaceHolder1__Form" class="row">
+
+
+
+
+
+<div id="ContentPlaceHolder1_Sect_1">
+
+<div class="col-md-12 grid-margin stretch-card mt-5">
+<div class="card">
+<div class="card-header">
+<h5 class="card-title">Transfer</h5></div>
+<div class="card-body">
+<div class="forms-sample">
+
+<div class="form-group basic row">
+<div class="col">
+
+</div>
+</div>
+
+<div id="ContentPlaceHolder1_UpdatePanel3">
+		
+<div class="form-group basic row ptx">
+<div class="col">
+<div>
+<label class="impo">Medium:</label>
+<div class="input-group mxf">
+<div class="input-group-text">
+<img id="ContentPlaceHolder1_Coin_Icon" onerror="this.onerror=null;GenImage(this);" src="images/aCOINS/bitcoin.png" style="height:100%" />
+</div>
+
+<select name="ctl00$ContentPlaceHolder1$Dp_Cryp" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$Dp_Cryp\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_Dp_Cryp" class="form-control form-control-lg custom-select">
+			<option value=""></option>
+			<option value="binancecoin=BNB">BNB</option>
+			<option selected="selected" value="bitcoin=BTC">BTC</option>
+			<option value="ethereum=ETH">ETH</option>
+			<option value="litecoin=LTC">LTC</option>
+			<option value="tron=TRX">TRX</option>
+			<option value="tether=USDT (ERC20)">USDT (ERC20)</option>
+			<option value="tether=USDT (TRC20)">USDT (TRC20)</option>
+
+		</select>
+</div>
+</div>
+</div>
+</div>
+
+<div class="dkd">
+<span>Balance:&nbsp;</span><span id="ContentPlaceHolder1_Lbl_Bal" data-price="96937">$0</span>
+</div>
+
+	</div>
+
+
+<div id="ContentPlaceHolder1_UpdatePanel2">
+		
+<div id="ContentPlaceHolder1_rTransferType" class="form-group basic row ptx">
+<div class="col">
+<div>
+<label class="impo">Transfer Type:</label>
+<div class="input-group mxf">
+<div class="input-group-text">
+<i class="bi bi-arrow-repeat" aria-label="transfer repeat"></i>
+</div>
+
+<select name="ctl00$ContentPlaceHolder1$Transfer_Type" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$Transfer_Type\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_Transfer_Type" class="form-control form-control-lg custom-select">
+			<option selected="selected" value=""></option>
+			<option value="External">External Transfer</option>
+			<option value="Internal">Internal Transfer</option>
+
+		</select>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div id="ContentPlaceHolder1_Intr_1" class="form-group basic row ptx">
+<div class="col">
+<div>
+<label class="impo">Wallet Address:</label>
+<div class="input-group mxf">
+<div class="input-group-text">
+<i class="bi bi-wallet2" aria-label="wallet symbol"></i>
+</div>
+
+<input name="ctl00$ContentPlaceHolder1$Txt__Wallet" type="text" id="ContentPlaceHolder1_Txt__Wallet" class="form-control form-control-lg" />
+</div>
+</div>
+</div>
+</div>    
+
+	</div>
+    
+
+<div class="form-group basic row ptx">
+<div class="col">
+<div>
+<label class="impo">Amount:</label>
+<div class="input-group mxf">
+<div class="input-group-text">
+<i class="bi bi-currency-dollar" aria-label="dollar symbol"></i>
+</div>
+
+<input name="ctl00$ContentPlaceHolder1$Txt_Amount" type="text" id="ContentPlaceHolder1_Txt_Amount" class="form-control form-control-lg" data-valid="decimal" />
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="form-group basic row ptx">
+<div class="col">
+<div>
+<label class="impo">Transaction pin:</label>
+<div class="input-group mxf">
+<div class="input-group-text">
+<i class="bi bi-shield-lock" aria-label="shield security"></i>
+</div>
+
+<input name="ctl00$ContentPlaceHolder1$Txt_Trans_Pin" type="text" id="ContentPlaceHolder1_Txt_Trans_Pin" class="form-control form-control-lg" />
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<input type="submit" name="ctl00$ContentPlaceHolder1$btnsubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnsubmit&quot;, &quot;&quot;, true, &quot;Gp1&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnsubmit" class="btn btn-primary m-2" />
+<input type="submit" name="ctl00$ContentPlaceHolder1$btncancel" value="Cancel" onclick="return false;" id="ContentPlaceHolder1_btncancel" class="btn btn-secondary" />
+<span id="ContentPlaceHolder1_CustomValidator1" style="display:none;"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src='/js/__Numeric.js'></script>
+<script>
+    function _t(o, _a) {
+        if (checkdetails()) {
+            _a.IsValid = true;
+            return
+        }
+        $('.impo').addClass('shw');
+        _a.IsValid = false
+    }
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_CustomValidator1"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_CustomValidator1 = document.all ? document.all["ContentPlaceHolder1_CustomValidator1"] : document.getElementById("ContentPlaceHolder1_CustomValidator1");
+ContentPlaceHolder1_CustomValidator1.display = "Dynamic";
+ContentPlaceHolder1_CustomValidator1.validationGroup = "Gp1";
+ContentPlaceHolder1_CustomValidator1.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ContentPlaceHolder1_CustomValidator1.clientvalidationfunction = "_t";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ContentPlaceHolder1_CustomValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_CustomValidator1'));
+}
+//]]>
+</script>
+</form>
+</div>
+
+<div class="appBottomMenu">       
+<a href="/Dashboard" class="item">
+<div class="col">
+<i class="bi bi-grid" aria-label="home"></i>
+<strong>Home</strong>
+</div>
+</a>
+    
+<a href="/card" class="item">
+<div class="col">
+<i class="bi bi-credit-card"></i>
+<strong>Card</strong>
+</div>
+</a>
+
+<a href="/Swap" class="item">
+<div class="col">
+<i class="bi bi-arrow-left-right" aria-label="reload"></i>
+<strong>Swap</strong>
+</div>
+</a>
+
+<a href="/Buy" class="item">
+<div class="col">
+<i class="bi bi-wallet2" aria-label="cart"></i>
+<strong>Buy</strong>
+</div>
+</a>
+    
+
+<a href="/Profile" class="item">
+<div class="col">
+<i class="bi bi-person-fill" aria-label="person"></i>
+<strong>Profile</strong>
+</div>
+</a>
+</div>
+  
+ 
+   
+    
+<!----Translator-->
+<div id="google_translate_element" style="bottom:42px" data-translator-bt=""></div>
+<!----OTHER NOTIFIERS---->
+<label id="wait">Processing...</label>
+<div class="rstrt"><i class="bi bi-x-circle"></i>&nbsp;<div class="___echo">Not Allowed</div></div>
+
+
+
+<script src='/users/assets/js/lib/bootstrap.bundle.min.js'></script>
+
+<script src='/users/assets/js/plugins/splide/splide.min.js'></script>
+
+<script src='/users/assets/js/base.js'></script>
+
+
+<script src="/users/assets/js/AppMain.js"></script>
+<script src="/js/alertify/alertify.min.js"></script>
+<script src="/js/offline/offline.min.js"></script>
+<script src="/js/panel.js"></script>
+<script src="/js/base.js"></script>
+   
+<script src="/js/typo.js"></script>
+<script src="/js/a_GenImage.js"></script>
+
+    
+<script id='cCdl'>$(window).on('load',function(){$('body').append($('<script />',{src:'/js/wbf.js?intbit=1'}))});</script>
+
+
+
+<div class="wrpr drk"><div><header class="tHdr"><img src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 120.23 122.88' style='enable-background:new 0 0 120.23 122.88' xml:space='preserve'><g><path style='fill:white;fill-rule:evenodd;clip-rule:evenodd' d='M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98 C92.21,2.68,94.88,0,98.18,0L98.18,0z M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86 c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45 c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99 s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18 c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z M35.87,80.59 c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59 L35.87,80.59z M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95 C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.30,8.3 c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58 c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z'/></g></svg>"/></header><div class="fcDtr"><p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="javascript:void(0);"> Read more...</a></p></div><div class="tBtns"><button type="button" class="tBtn">Accept</button></div></div></div><style>.wrpr,.wrpr *{box-sizing:border-box;font-family:'Asap',sans-serif}.wrpr{max-width:345px;width:100%;background:#e1e1e1;color:#333;border-radius:8px;padding:15px 25px 22px;transition:right 0.3s ease;box-shadow:0 5px 10px rgba(0,0,0,.1);z-index:100000000;display:none;justify-content:center;align-items:center;position:fixed;bottom:20px;left:50%;transform:translateX(-50%)}.wrpr.drk{background-color:#222;color:#fff}.wrpr.shw{display:flex}.wrpr .tHdr{display:flex;align-items:center;column-gap:15px}.tHdr i{color:var(--AppColor);font-size:32px}.wrpr .fcDtr{margin-top:16px;font-size:16px}.fcDtr p a{color:var(--AppColor);text-decoration:none}.fcDtr p a:hover{text-decoration:underline}.wrpr .tBtns{margin-top:16px;width:100%;display:flex;align-items:center;justify-content:space-between}.tBtn{height:auto;border:none;color:#fff;padding:8px 0;border-radius:4px;background:var(--AppColor);cursor:pointer;width:100%;transition:all .2s ease}.tHdr img{margin:0 auto;background:var(--AppColor);border-radius:50%;padding:5px;height:2.5rem;width:2.5rem}@media only screen and (min-width:768px){.wrpr{bottom:20px;right:20px;left:unset;transform:none}}</style><script>$(function(){if(!document.cookie.includes('dAllowed')){$('.wrpr').addClass('shw');$(document).on('click','.tBtn',function(){$('.wrpr').removeClass('shw');document.cookie='cookieBy=dAllowed; max-age='+(60*60*24*30)})}});</script>
+
+<script>$(document).ready(function(){var $u=window.location.pathname.replace(/\/$/,''),pgName=$u.substring($u.lastIndexOf('/')+1).toLowerCase();$(".sidebar-wrapper .menu .sidebar-item").filter(function(){return $(this).find("a[href]").filter(function(){return new RegExp(pgName,"i").test($(this).attr("href"))}).length>=1}).last().addClass("active")})</script>
+<script>function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element') } $(window).on('load', function () { $.getScript({ url: 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', cache: true }) });</script>
+</body>
+</html>

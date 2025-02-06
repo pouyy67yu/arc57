@@ -1,0 +1,1 @@
+{"aave":{"usd":246.1,"oldval":246.52},"binancecoin":{"usd":581.7,"oldval":581.94},"bitcoin":{"usd":96853.0,"oldval":96920.0},"ethereum":{"usd":2717.25,"oldval":2719.38},"litecoin":{"usd":101.76,"oldval":101.84},"solana":{"usd":192.84,"oldval":192.84},"tether":{"usd":1.0,"oldval":1.0},"tron":{"usd":0.230161,"oldval":0.230233}}

