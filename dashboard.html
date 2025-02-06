@@ -1,0 +1,803 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><style>:root{--AppColor:#1262ff;--oColor:rgba(18,98,255,0.37);--wbColor:#fff;--d_Color:#0C41AA;--siteUrl:"https://www.bitvino.com"}</style><meta name="theme-color" content="#1262ff"/><meta name="msapplication-navbutton-color" content="#1262ff"/><meta name="mobile-web-app-capable" content="yes"/><meta name="application-name" content="Bitvino" /><meta name="apple-mobile-web-app-title" content="Bitvino" /><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="robots" content="noimageindex,noarchive"><meta name="keywords" content="wallet,crypto,Trade,Trading"><meta name="description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:description" content="We are a registered digital asset management firm. The platform, which includes advanced basic and technical analysis at the source of high return performance, offers high & fixed interest return. Aiming for success with its international investor network, experienced team, privileged information from business and technology world"><meta property="og:url" content="https://www.bitvino.com"><meta property="og:image" content="https://www.bitvino.com/images/OpenGraphics.png"><meta property="og:title" content="Bitvino"><meta property="og:type" content="crypto:wallet"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="0" /><title>
+	Bitvino| tanker
+</title> 
+
+<link rel="stylesheet" href="/users/assets/css/style.css?xo" />
+<link rel="stylesheet" href="/users/assets/bootstrap-icons/bootstrap-icons.css" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/css/___App_Global.css" />
+
+<!----PLUG-INs CSS---->
+<link href="/js/offline/offline-theme-default.css" rel="stylesheet" />
+<link href="/js/offline/offline-language-english.css" rel="stylesheet" /> 
+<link href="/js/alertify/alertify.css" rel="stylesheet" />
+<link href="/js/alertify/default.css" rel="stylesheet" />
+
+
+<script src="/js/Jquery-ui/jquery-3.6.0.min.js"></script>
+<script>var srcGet = '/', _clr = '#1262ff';</script>
+
+<style>
+.appHeader {
+background: inherit !important;
+border: none !important;
+}
+
+#appCapsule{
+margin-top: 18px;
+margin-bottom: 18px;
+}    
+#google_translate_element * {
+color: transparent;
+}
+#google_translate_element img {
+display:none
+}
+#google_translate_element select,#google_translate_element option{
+color: #fff;
+}
+#google_translate_element select{
+padding: 2px 10px;
+text-align: center;
+text-align-last: center;
+background: var(--AppColor);
+border: none !important;
+outline: none !important;
+}.image-listview>li a.item::after{content:''!important}
+ option {
+  color: #000;
+}
+</style>
+
+<style>
+.stat-box .value.bt {
+font-size: 12px!important
+}
+.ico1{display:flex!important}
+.ico2{display:none!important}
+#appCapsule {
+  max-width: none!important;
+  max-height: none!important;
+  margin-bottom: env(safe-area-inset-bottom)!important;
+  margin-top: env(safe-area-inset-top)!important;
+}
+.inf--9>.card-coin.tpCoins_x{filter:blur(4px)}.tpCoins_x.tpCoins{border:1px solid #fff;filter:blur(0)!important}.tpCoins,.bottom-navigation__icons li:hover,.account-buttons a:hover,.tpCoins_x:hover{/*transform:scale(1.05)*/}.bottom-navigation__icons li,.account-buttons a,.tpCoins_x{transition:all .5s}</style>
+<style>
+.transactions {
+background: #ffffff;
+border-radius: 10px;
+font-size: 12px;
+}
+.transactions .item {
+box-shadow: none;
+margin-bottom: 0;
+padding: 12px !important;
+line-height: 15px;
+}
+body.dark-mode .transactions {
+background: #080808
+}
+.transactions .item .detail strong {
+font-weight: 900;
+}
+.imaged.w48 {
+width: 40px !important;
+}
+.cAmt {
+max-width: 5rem;
+overflow: hidden;
+vertical-align: bottom;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+[data-price-flags]{
+display: inline-block;
+margin-right: 1rem;
+color: #1DCC70;
+position:relative
+}
+
+[data-price-flags*='-'] {
+color: #FF396F;
+}
+/*
+[data-price-flags]::after {
+content: '';
+position: absolute;
+top: 50%;
+right: -1rem;
+transform: translateY(-50%);
+width: 14px;
+height: 100%;
+background: url('/images/icons/arrow-up.png') center/100% no-repeat
+}
+[data-price-flags*='-']::after {
+background-image: url('/images/icons/arrow-down.png');
+}*/
+
+.popTp {
+border-radius: .5rem;
+padding: .4rem 0.7rem;
+}
+.line-chart {
+width: 100px;
+height: 40px;
+}
+.arrow-up {
+width: 12px;
+height: 12px;
+}
+
+.wallet-card.nt-orig {
+  background: transparent !important;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+.wallet-card.nt-orig .wallet-footer .icon-wrapper {
+  background: #fff;
+  border-radius: 100%;
+  padding: 0.8rem;
+  margin: 0 0 0.6rem 0;
+  display: inline-block;
+}
+body.dark-mode .wallet-card.nt-orig .wallet-footer .icon-wrapper {
+    background: #080808!important;
+}
+</style>
+
+
+<style>
+.impo.shw:after{content:' *';color:red}
+.mxf .input-group-text {
+padding: .375rem .75rem;
+}
+.input-group.mxf i {
+  background: var(--AppColor);
+  border-radius: 100%;
+  padding: .15rem .37rem;
+  display: block;
+  color:#fff
+}
+.input-group.mxf .input-group-text {
+  padding-left: 4px;
+}
+.mxf .input-group-text:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  box-shadow: none;
+}.mxf select, .mxf input {
+  padding-left: 2.5rem !important;
+  margin-left: 0;
+}
+[id*=Trans_Pin] {
+font-family: 'password'; 
+-webkit-text-security: square; 
+text-security: square; 
+font-size: 16px;
+padding: 10px;
+}
+.dkd {
+    position:relative;
+    margin-top: -0.7rem;
+    font-size: 11.4pt;
+    font-weight: 600;
+    text-align: right;
+    color: var(--AppColor)
+}
+.appBottomMenu {
+  border-radius: 2rem 2rem 0 0;
+}
+</style>
+</head>
+<body class="dark-mode">
+
+<div class="appHeader  text-light ico1" style="display:none">
+<div class="left">
+<a href="Profile" class="headerButton"> 
+<i class="bi bi-person-fill" aria-label="settings"></i>
+</a>
+</div>
+<div class="pageTitle" style="color:var(--AppColor)">
+Home
+</div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+
+</div>
+</div>
+
+<div class="appHeader ico2">
+<div class="left">
+<a href="javascript:void(0);" onclick="var r=document.referrer;if(r&&!r.toLowerCase().includes('login')){window.history.back()}else{window.location='dashboard'}" class="headerButton">
+<i class="bi bi-chevron-left" aria-label="chevron back outline"></i> Previous
+</a>
+</div>
+<div class="pageTitle"></div>
+<div class="right">
+<a href="/Alerts" class="headerButton">
+<i class="bi bi-bell-fill" aria-label="notifications"></i>
+
+</a>
+</div>
+</div>
+
+
+
+<div id="appCapsule" class="container">    
+<form method="post" action="./Dashboard" id="form1" autocomplete="off" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTAxNzUyMDg4D2QWAmYPZBYCAgMPZBYCAgEPZBYKZg8PFgIeBFRleHQFCDg4NjY0MTkyZGQCAQ8PZBYCHglkYXRhLXBjb24FrwFiaW5hbmNlY29pbj0wLjAwMDAwMDAwMDAwMDAwMDAwMCxiaXRjb2luPTAuMDAwMDAwMDAwMDAwMDAwMDAwLGV0aGVyZXVtPTAuMDAwMDAwMDAwMDAwMDAwMDAwLGxpdGVjb2luPTAuMDAwMDAwMDAwMDAwMDAwMDAwLHRldGhlcj0wLjAwMDAwMDAwMDAwMDAwMDAwMCx0cm9uPTAuMDAwMDAwMDAwMDAwMDAwMDAwZAICDw9kFgIfAQWvAWJpbmFuY2Vjb2luPTAuMDAwMDAwMDAwMDAwMDAwMDAwLGJpdGNvaW49MC4wMDAwMDAwMDAwMDAwMDAwMDAsZXRoZXJldW09MC4wMDAwMDAwMDAwMDAwMDAwMDAsbGl0ZWNvaW49MC4wMDAwMDAwMDAwMDAwMDAwMDAsdGV0aGVyPTAuMDAwMDAwMDAwMDAwMDAwMDAwLHRyb249MC4wMDAwMDAwMDAwMDAwMDAwMDBkAgMPFgIeC18hSXRlbUNvdW50AgcWDmYPZBYGZg8VAycvZGV0YWlscz9xdWVyeT1IVUVmQk9wejNkZG84cTFBdnUxcFF3PT0DQlRDB2JpdGNvaW5kAgEPDxYCHghJbWFnZVVybAUbfi9pbWFnZXMvYUNPSU5TL2JpdGNvaW4ucG5nZGQCAg8VBANCVEMUMC4wMDAwMDAwMDAwMDAwMDAwMDAEMC4wMANCVENkAgEPZBYGZg8VAycvZGV0YWlscz9xdWVyeT1kbFlVMXl1bnhaRk1GZ1NZSkVKTEtBPT0DRVRICGV0aGVyZXVtZAIBDw8WAh8DBRx+L2ltYWdlcy9hQ09JTlMvZXRoZXJldW0ucG5nZGQCAg8VBANFVEgUMC4wMDAwMDAwMDAwMDAwMDAwMDAEMC4wMANFVEhkAgIPZBYGZg8VAycvZGV0YWlscz9xdWVyeT0xY3JwdkJRM3FMQmlFcnI3RzlUcnZBPT0DVFJYBHRyb25kAgEPDxYCHwMFGH4vaW1hZ2VzL2FDT0lOUy90cm9uLnBuZ2RkAgIPFQQDVFJYFDAuMDAwMDAwMDAwMDAwMDAwMDAwBDAuMDADVFJYZAIDD2QWBmYPFQMnL2RldGFpbHM/cXVlcnk9cWJHQnNwZHBJVFBnekhiMHhEcUp4dz09A0JOQgtiaW5hbmNlY29pbmQCAQ8PFgIfAwUffi9pbWFnZXMvYUNPSU5TL2JpbmFuY2Vjb2luLnBuZ2RkAgIPFQQDQk5CFDAuMDAwMDAwMDAwMDAwMDAwMDAwBDAuMDADQk5CZAIED2QWBmYPFQMnL2RldGFpbHM/cXVlcnk9MG1haTVJM0lZbjUwMGhYUVVZcFptZz09A0xUQwhsaXRlY29pbmQCAQ8PFgIfAwUcfi9pbWFnZXMvYUNPSU5TL2xpdGVjb2luLnBuZ2RkAgIPFQQDTFRDFDAuMDAwMDAwMDAwMDAwMDAwMDAwBDAuMDADTFRDZAIFD2QWBmYPFQM7L2RldGFpbHM/cXVlcnk9SXN5aUl0VUpWUmRiak5TOEc5V2RHaUhUNWcveHlNUWZpOHNKaTNaSC9Tbz0MVVNEVCAoVFJDMjApBnRldGhlcmQCAQ8PFgIfAwUafi9pbWFnZXMvYUNPSU5TL3RldGhlci5wbmdkZAICDxUEDFVTRFQgKFRSQzIwKRQwLjAwMDAwMDAwMDAwMDAwMDAwMAQwLjAwBFVTRFRkAgYPZBYGZg8VAzsvZGV0YWlscz9xdWVyeT04TUZyK3RsUUdVditxMDdRSFJnc0RYMmdZeXZpaVRHQUkwaVZRa2oxQTh3PQxVU0RUIChFUkMyMCkGdGV0aGVyZAIBDw8WAh8DBRp+L2ltYWdlcy9hQ09JTlMvdGV0aGVyLnBuZ2RkAgIPFQQMVVNEVCAoRVJDMjApFDAuMDAwMDAwMDAwMDAwMDAwMDAwBDAuMDAEVVNEVGQCBA8WAh8CAgcWDmYPZBYGZg8VAh8/cXVlcnk9SFVFZkJPcHozZGRvOHExQXZ1MXBRdz09A0JUQ2QCAQ8PFgIfAwUbfi9pbWFnZXMvYUNPSU5TL2JpdGNvaW4ucG5nZGQCAg8VAQNCVENkAgEPZBYGZg8VAh8/cXVlcnk9ZGxZVTF5dW54WkZNRmdTWUpFSkxLQT09A0VUSGQCAQ8PFgIfAwUcfi9pbWFnZXMvYUNPSU5TL2V0aGVyZXVtLnBuZ2RkAgIPFQEDRVRIZAICD2QWBmYPFQIfP3F1ZXJ5PTFjcnB2QlEzcUxCaUVycjdHOVRydkE9PQNUUlhkAgEPDxYCHwMFGH4vaW1hZ2VzL2FDT0lOUy90cm9uLnBuZ2RkAgIPFQEDVFJYZAIDD2QWBmYPFQIfP3F1ZXJ5PXFiR0JzcGRwSVRQZ3pIYjB4RHFKeHc9PQNCTkJkAgEPDxYCHwMFH34vaW1hZ2VzL2FDT0lOUy9iaW5hbmNlY29pbi5wbmdkZAICDxUBA0JOQmQCBA9kFgZmDxUCHz9xdWVyeT0wbWFpNUkzSVluNTAwaFhRVVlwWm1nPT0DTFRDZAIBDw8WAh8DBRx+L2ltYWdlcy9hQ09JTlMvbGl0ZWNvaW4ucG5nZGQCAg8VAQNMVENkAgUPZBYGZg8VAjM/cXVlcnk9SXN5aUl0VUpWUmRiak5TOEc5V2RHaUhUNWcveHlNUWZpOHNKaTNaSC9Tbz0MVVNEVCAoVFJDMjApZAIBDw8WAh8DBRp+L2ltYWdlcy9hQ09JTlMvdGV0aGVyLnBuZ2RkAgIPFQEMVVNEVCAoVFJDMjApZAIGD2QWBmYPFQIzP3F1ZXJ5PThNRnIrdGxRR1V2K3EwN1FIUmdzRFgyZ1l5dmlpVEdBSTBpVlFrajFBOHc9DFVTRFQgKEVSQzIwKWQCAQ8PFgIfAwUafi9pbWFnZXMvYUNPSU5TL3RldGhlci5wbmdkZAICDxUBDFVTRFQgKEVSQzIwKWRk3UZZRRZ8HpaTHAnSjNFdjUFfHkk=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="581FE9BD" />
+</div>    
+    
+
+
+<!-- Wallet Card -->
+<div class="section wallet-card-section pt-1">
+<div class="wallet-card">
+
+
+<!-- Balance -->
+<div class="balance">
+<div class="left">
+<span class="title">Wallet Balance</span>
+<h4 class="total"><span id="cTotal" data-conv-amt="">$0</span></h4>
+
+
+<div class="" style="font-size:11px;padding: 0;margin: 0;height: auto;">
+ACCOUNT ID <strong><span id="ContentPlaceHolder1_Acct_ID" class="copytxt">88664192</span></strong>
+<button class="btn" id="Btn_copy" style="color:#929292;padding:0;margin:0;outline:none;height:auto;border:none">
+<i class="bi bi-clipboard" style="font-size:inherit" aria-label="copy outline"></i>
+</button>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="row mt-2 text-center">
+<div class="col-6">
+<div class="stat-box">
+<div class="title">Incoming</div>
+<div class="value text-success text-wrap"><span id="ContentPlaceHolder1_Plus" data-pcon="binancecoin=0.000000000000000000,bitcoin=0.000000000000000000,ethereum=0.000000000000000000,litecoin=0.000000000000000000,tether=0.000000000000000000,tron=0.000000000000000000">0</span></div>
+</div>
+</div>
+<div class="col-6">
+<div class="stat-box">
+<div class="title">Outgoing</div>
+<div class="value text-danger text-wrap"><span id="ContentPlaceHolder1_Minus" data-pcon="binancecoin=0.000000000000000000,bitcoin=0.000000000000000000,ethereum=0.000000000000000000,litecoin=0.000000000000000000,tether=0.000000000000000000,tron=0.000000000000000000">0</span></div>
+</div>
+</div>
+</div>
+
+
+
+         <!-- * Balance -->
+     </div>
+ </div>
+
+
+
+
+    <div class="wallet-card nt-orig">
+        
+         <!-- Wallet Footer -->
+         <div class="wallet-footer">
+             <div class="item">
+                 <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#depositActionSheet" data-cat-pop="transfer">
+                     <div class="icon-wrapper">
+                         <i class="bi bi-arrow-up" aria-label="arrow up outline"></i>
+                     </div>
+                     <strong>Send</strong>
+                 </a>
+             </div>
+             <div class="item">
+                 <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#depositActionSheet" data-cat-pop="send">
+                     <div class="icon-wrapper">
+                         <i class="bi bi-arrow-down" aria-label="arrow down outline"></i>
+                     </div>
+                     <strong>Receive</strong>
+                 </a>
+             </div>
+           
+             <div class="item">
+                 <a href="/kyc">
+                     <div class="icon-wrapper">
+                         <i class="bi bi-person-fill" aria-label="person outline"></i>
+                     </div>
+                     <strong>KYC</strong>
+                 </a>
+             </div>
+             <div class="item">
+                 <a href="/wallet_connect">
+                     <div class="icon-wrapper">
+                         <i class="bi bi-share" aria-label="link outline"></i>
+                     </div>
+                     <strong>Wallet Connect</strong>
+                 </a>
+             </div>
+
+         </div>
+         <!-- * Wallet Footer -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- * Stats -->
+        <!-- Transactions -->
+        <div class="section mb-3 mt-4">
+            <div class="section-heading">
+                <h2 class="title"><b>crypto</b></h2>
+            </div>
+            <div class="transactions fCDL--7">
+                <!-- item -->
+
+                <a id="Lnk_cdl" href='/details?query=HUEfBOpz3ddo8q1Avu1pQw==' class="item card-coin tpCoins_x" data-cName='BTC' data-coinid='bitcoin'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_0" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/bitcoin.png" />
+                        <div>
+                            <strong>BTC</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;BTC</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=dlYU1yunxZFMFgSYJEJLKA==' class="item card-coin tpCoins_x" data-cName='ETH' data-coinid='ethereum'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_1" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/ethereum.png" />
+                        <div>
+                            <strong>ETH</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;ETH</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=1crpvBQ3qLBiErr7G9TrvA==' class="item card-coin tpCoins_x" data-cName='TRX' data-coinid='tron'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_2" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tron.png" />
+                        <div>
+                            <strong>TRX</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;TRX</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=qbGBspdpITPgzHb0xDqJxw==' class="item card-coin tpCoins_x" data-cName='BNB' data-coinid='binancecoin'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_3" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/binancecoin.png" />
+                        <div>
+                            <strong>BNB</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;BNB</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=0mai5I3IYn500hXQUYpZmg==' class="item card-coin tpCoins_x" data-cName='LTC' data-coinid='litecoin'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_4" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/litecoin.png" />
+                        <div>
+                            <strong>LTC</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;LTC</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=IsyiItUJVRdbjNS8G9WdGiHT5g/xyMQfi8sJi3ZH/So=' class="item card-coin tpCoins_x" data-cName='USDT (TRC20)' data-coinid='tether'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_5" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tether.png" />
+                        <div>
+                            <strong>USDT (TRC20)</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;USDT</p>
+                    </div>
+                </a>
+                <a id="Lnk_cdl" href='/details?query=8MFr+tlQGUv+q07QHRgsDX2gYyviiTGAI0iVQkj1A8w=' class="item card-coin tpCoins_x" data-cName='USDT (ERC20)' data-coinid='tether'>
+                    <div class="detail">
+                        <img id="ContentPlaceHolder1_Repeater1_Image1_6" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tether.png" />
+                        <div>
+                            <strong>USDT (ERC20)</strong>
+
+                            <strong class="d-inline-block" data-price="">$0</strong>
+                            
+                            <small data-price-flags="">0.00</small>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price" data-balance="">$0</div>
+                            <p><label class="cAmt" data-camt='0.000000000000000000'>0.00</label>&nbsp;USDT</p>
+                    </div>
+                </a>
+                <!-- * item -->
+            </div>
+        </div>
+
+       
+
+
+
+
+
+<div class="modal fade action-sheet" id="depositActionSheet" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">CRYPTO</h5>
+</div>
+<div class="modal-body">
+<div class="action-sheet-content" style="overflow-x:hidden">
+
+<div class="form-group basic">                            
+<div class="transactions">
+<!-- item -->
+
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=HUEfBOpz3ddo8q1Avu1pQw==' class="item card-coin tpCoins_x" data-cName='BTC'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_0" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/bitcoin.png" />
+<div>
+<strong>BTC</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=dlYU1yunxZFMFgSYJEJLKA==' class="item card-coin tpCoins_x" data-cName='ETH'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_1" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/ethereum.png" />
+<div>
+<strong>ETH</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=1crpvBQ3qLBiErr7G9TrvA==' class="item card-coin tpCoins_x" data-cName='TRX'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_2" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tron.png" />
+<div>
+<strong>TRX</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=qbGBspdpITPgzHb0xDqJxw==' class="item card-coin tpCoins_x" data-cName='BNB'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_3" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/binancecoin.png" />
+<div>
+<strong>BNB</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=0mai5I3IYn500hXQUYpZmg==' class="item card-coin tpCoins_x" data-cName='LTC'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_4" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/litecoin.png" />
+<div>
+<strong>LTC</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=IsyiItUJVRdbjNS8G9WdGiHT5g/xyMQfi8sJi3ZH/So=' class="item card-coin tpCoins_x" data-cName='USDT (TRC20)'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_5" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tether.png" />
+<div>
+<strong>USDT (TRC20)</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<a href="javascript:void(0);" id="Lnk_cdl_2" data-href-tz='?query=8MFr+tlQGUv+q07QHRgsDX2gYyviiTGAI0iVQkj1A8w=' class="item card-coin tpCoins_x" data-cName='USDT (ERC20)'>
+<div class="detail">
+<img id="ContentPlaceHolder1_Repeater2_Image1_6" onerror="this.onerror=null;GenImage(this);" alt="Coin" class="image-block imaged w48" src="images/aCOINS/tether.png" />
+<div>
+<strong>USDT (ERC20)</strong>
+</div>
+</div>
+<div class="right"></div>
+</a>
+<!-- * item -->
+</div>
+</div>
+
+<div class="form-group basic">
+<button type="button" class="btn btn-primary btn-block btn-lg" data-bs-dismiss="modal">Close</button>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<span id="ContentPlaceHolder1_HDN_CDL" style="display:none"></span>
+<script src='/js/__Numeric.js'></script>
+
+<script src='/js/Plug-in/clipboard.min.js'></script>
+<script>
+    $(document).on('click', '[id*=Btn_copy]', function (e) { e.preventDefault(); ClipboardJS.copy($('.copytxt').text()); alertify.success('Copied to clipboard'); return false });
+
+    $(document).on('click', '[data-cat-pop]', function () {
+        var s = $(this);
+        $('#depositActionSheet').attr('data-mvt', s.attr('data-cat-pop'))
+    });
+    $(document).on('click', '[data-href-tz]', function () {
+        var h = $('#depositActionSheet').attr('data-mvt');
+        if (h) {
+            location.href = h + $(this).attr('data-href-tz')
+        }
+    });
+
+    $(document).on('click', '.iCam', function () {
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                //let video = document.getElementById('video');
+                //video.srcObject = stream;
+                //video.play();
+            })
+            .catch(function (err) {
+                //console.log("An error occurred: " + err);
+            });
+    });
+
+    $(window).on('load', function () {
+        $('[data-coinid]').each(function () {
+            var imgEl = $(this).find("img").get(0);
+            var avgColor = getAverageRGB(imgEl);
+            $(this).find('path').attr('stroke', `rgb(${avgColor.r}, ${avgColor.g}, ${avgColor.b})`);
+        });
+    });
+
+    function getAverageRGB(imgEl) {
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
+        if (!context) return { r: 0, g: 0, b: 0 };
+
+        canvas.width = imgEl.naturalWidth || imgEl.width;
+        canvas.height = imgEl.naturalHeight || imgEl.height;
+        context.drawImage(imgEl, 0, 0);
+
+        try {
+            var data = context.getImageData(0, 0, canvas.width, canvas.height).data;
+        } catch (e) {
+            return { r: 0, g: 0, b: 255 };
+        }
+
+        var length = data.length;
+        var blockSize = 20;
+        var count = 0, r = 0, g = 0, b = 0;
+
+        for (var i = 0; i < length; i += blockSize * 4) {
+            if (data[i + 3] === 0) continue;
+            r += data[i];
+            g += data[i + 1];
+            b += data[i + 2];
+            count++;
+        }
+
+        return count ? { r: Math.floor(r / count), g: Math.floor(g / count), b: Math.floor(b / count) } : { r: 0, g: 0, b: 0 };
+    }
+</script>
+
+<script data-crypto-gen="a_crypoGen">
+$(document).ready(function () {
+    function genCrypto() {
+        $.ajax({
+            type: "GET",
+            url: srcGet + "Files/Handlers/aCryptoPrice.ashx",
+            dataType: "json",
+            async: false,
+            success: function (r) {
+                //var allEqual = Object.values(r).every((it) => it.usd === it.oldval);
+                $("[data-coinid]").each(function () {
+                    var self = $(this),
+                        id = self.attr("data-coinid"),
+                        jsn = r[id],
+                        n = parseFloat(jsn["usd"], 10),
+                        o = parseFloat(jsn["oldval"], 10);
+                    (p = parseFloat(self.find(".cAmt").attr("data-camt"), 10) * n), (cfr = (((n - o) / o) * 100).toFixed(2) + "%");
+                    self.find("[data-price]")
+                        .html("$" + n.toLocaleString("en", { maximumFractionDigits: 3 }))
+                        .end()
+                        .find("[data-price-flags]")
+                        .html(cfr)
+                        .attr("data-price-flags", cfr)
+                        .end()
+                        .find("[data-balance]")
+                        .html("$" + p.toLocaleString("en", { maximumFractionDigits: 3 }))
+                        .attr("data-balance", p);
+                });
+                $("#cTotal").html(
+                    "$" +
+                    $("[data-balance]")
+                        .map(function () {
+                            return parseFloat($(this).attr("data-balance"));
+                        })
+                        .get()
+                        .reduce(function (acc, b) {
+                            return acc + b;
+                        }, 0)
+                        .toLocaleString("en", { maximumFractionDigits: 3 })
+                );
+                setTimeout(genCrypto, 15000);
+                $("[data-pcon]").each(function () {
+                    var $s = $(this),
+                        $at = $s.attr("data-pcon");
+                    if ($at !== "") {
+                        var tot1 = 0,
+                            dataArray = $at.split(",");
+                        $.each(r, function (key, val) {
+                            var _in = dataArray.findIndex(function (item) {
+                                return item.startsWith(key)
+                            });
+                            if (_in !== -1) {
+                                tot1 += parseFloat(dataArray[_in].split("=")[1], 10) * parseFloat(val["usd"], 10)
+                            }
+                        });
+                        $s.html("$" + (tot1.round(2) || 0).toLocaleString("en", { maximumFractionDigits: 3 }))
+                    }
+                })
+            },
+        })
+    }
+    genCrypto()
+});
+</script>
+
+</form>
+</div>
+
+<div class="appBottomMenu">       
+<a href="/Dashboard" class="item">
+<div class="col">
+<i class="bi bi-grid" aria-label="home"></i>
+<strong>Home</strong>
+</div>
+</a>
+    
+<a href="/card" class="item">
+<div class="col">
+<i class="bi bi-credit-card"></i>
+<strong>Card</strong>
+</div>
+</a>
+
+<a href="/Swap" class="item">
+<div class="col">
+<i class="bi bi-arrow-left-right" aria-label="reload"></i>
+<strong>Swap</strong>
+</div>
+</a>
+
+<a href="/Buy" class="item">
+<div class="col">
+<i class="bi bi-wallet2" aria-label="cart"></i>
+<strong>Buy</strong>
+</div>
+</a>
+    
+
+<a href="/Profile" class="item">
+<div class="col">
+<i class="bi bi-person-fill" aria-label="person"></i>
+<strong>Profile</strong>
+</div>
+</a>
+</div>
+  
+ 
+   
+    
+<!----Translator-->
+<div id="google_translate_element" style="bottom:42px" data-translator-bt=""></div>
+<!----OTHER NOTIFIERS---->
+<label id="wait">Processing...</label>
+<div class="rstrt"><i class="bi bi-x-circle"></i>&nbsp;<div class="___echo">Not Allowed</div></div>
+
+
+
+<script src='/users/assets/js/lib/bootstrap.bundle.min.js'></script>
+
+<script src='/users/assets/js/plugins/splide/splide.min.js'></script>
+
+<script src='/users/assets/js/base.js'></script>
+
+
+<script src="/users/assets/js/AppMain.js"></script>
+<script src="/js/alertify/alertify.min.js"></script>
+<script src="/js/offline/offline.min.js"></script>
+<script src="/js/panel.js"></script>
+<script src="/js/base.js"></script>
+   
+<script src="/js/typo.js"></script>
+<script src="/js/a_GenImage.js"></script>
+
+    
+<script id='cCdl'>$(window).on('load',function(){$('body').append($('<script />',{src:'/js/wbf.js?intbit=1'}))});</script>
+
+
+
+<div class="wrpr drk"><div><header class="tHdr"><img src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 120.23 122.88' style='enable-background:new 0 0 120.23 122.88' xml:space='preserve'><g><path style='fill:white;fill-rule:evenodd;clip-rule:evenodd' d='M98.18,0c3.3,0,5.98,2.68,5.98,5.98c0,3.3-2.68,5.98-5.98,5.98c-3.3,0-5.98-2.68-5.98-5.98 C92.21,2.68,94.88,0,98.18,0L98.18,0z M99.78,52.08c5.16,7.7,11.69,10.06,20.17,4.85c0.28,2.9,0.35,5.86,0.2,8.86 c-1.67,33.16-29.9,58.69-63.06,57.02C23.94,121.13-1.59,92.9,0.08,59.75C1.74,26.59,30.95,0.78,64.1,2.45 c-2.94,9.2-0.45,17.37,7.03,20.15C64.35,44.38,79.49,58.63,99.78,52.08L99.78,52.08z M30.03,47.79c4.97,0,8.99,4.03,8.99,8.99 s-4.03,8.99-8.99,8.99c-4.97,0-8.99-4.03-8.99-8.99S25.07,47.79,30.03,47.79L30.03,47.79z M58.35,59.25c2.86,0,5.18,2.32,5.18,5.18 c0,2.86-2.32,5.18-5.18,5.18c-2.86,0-5.18-2.32-5.18-5.18C53.16,61.57,55.48,59.25,58.35,59.25L58.35,59.25z M35.87,80.59 c3.49,0,6.32,2.83,6.32,6.32c0,3.49-2.83,6.32-6.32,6.32c-3.49,0-6.32-2.83-6.32-6.32C29.55,83.41,32.38,80.59,35.87,80.59 L35.87,80.59z M49.49,32.23c2.74,0,4.95,2.22,4.95,4.95c0,2.74-2.22,4.95-4.95,4.95c-2.74,0-4.95-2.22-4.95-4.95 C44.54,34.45,46.76,32.23,49.49,32.23L49.49,32.23z M76.39,82.8c4.59,0,8.3,3.72,8.3,8.3c0,4.59-3.72,8.3-8.30,8.3 c-4.59,0-8.3-3.72-8.3-8.3C68.09,86.52,71.81,82.8,76.39,82.8L76.39,82.8z M93.87,23.1c3.08,0,5.58,2.5,5.58,5.58 c0,3.08-2.5,5.58-5.58,5.58s-5.58-2.5-5.58-5.58C88.29,25.6,90.79,23.1,93.87,23.1L93.87,23.1z'/></g></svg>"/></header><div class="fcDtr"><p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="javascript:void(0);"> Read more...</a></p></div><div class="tBtns"><button type="button" class="tBtn">Accept</button></div></div></div><style>.wrpr,.wrpr *{box-sizing:border-box;font-family:'Asap',sans-serif}.wrpr{max-width:345px;width:100%;background:#e1e1e1;color:#333;border-radius:8px;padding:15px 25px 22px;transition:right 0.3s ease;box-shadow:0 5px 10px rgba(0,0,0,.1);z-index:100000000;display:none;justify-content:center;align-items:center;position:fixed;bottom:20px;left:50%;transform:translateX(-50%)}.wrpr.drk{background-color:#222;color:#fff}.wrpr.shw{display:flex}.wrpr .tHdr{display:flex;align-items:center;column-gap:15px}.tHdr i{color:var(--AppColor);font-size:32px}.wrpr .fcDtr{margin-top:16px;font-size:16px}.fcDtr p a{color:var(--AppColor);text-decoration:none}.fcDtr p a:hover{text-decoration:underline}.wrpr .tBtns{margin-top:16px;width:100%;display:flex;align-items:center;justify-content:space-between}.tBtn{height:auto;border:none;color:#fff;padding:8px 0;border-radius:4px;background:var(--AppColor);cursor:pointer;width:100%;transition:all .2s ease}.tHdr img{margin:0 auto;background:var(--AppColor);border-radius:50%;padding:5px;height:2.5rem;width:2.5rem}@media only screen and (min-width:768px){.wrpr{bottom:20px;right:20px;left:unset;transform:none}}</style><script>$(function(){if(!document.cookie.includes('dAllowed')){$('.wrpr').addClass('shw');$(document).on('click','.tBtn',function(){$('.wrpr').removeClass('shw');document.cookie='cookieBy=dAllowed; max-age='+(60*60*24*30)})}});</script>
+
+<script>$(document).ready(function(){var $u=window.location.pathname.replace(/\/$/,''),pgName=$u.substring($u.lastIndexOf('/')+1).toLowerCase();$(".sidebar-wrapper .menu .sidebar-item").filter(function(){return $(this).find("a[href]").filter(function(){return new RegExp(pgName,"i").test($(this).attr("href"))}).length>=1}).last().addClass("active")})</script>
+<script>function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element') } $(window).on('load', function () { $.getScript({ url: 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit', cache: true }) });</script>
+</body>
+</html>
